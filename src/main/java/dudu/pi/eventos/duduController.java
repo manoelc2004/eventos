@@ -9,6 +9,6 @@ public class duduController {
 	@RequestMapping("/")
 	public String dudu() {
 		System.out.println("chamou o método");
-		return "dudu";
+		return "redirect:/eventos";
 	}
 }
