@@ -8,21 +8,24 @@
 	<h1>Adicionar evento</h1>
 
 	<form action="/eventos" method= "Post">
-
+       
 		<div>
-			<label>nome:</label> <input type="text" name="nome">
+			 <input type="text" name="id" th:value="${evento.id}">
+		</div>
+		<div>
+			<label>nome:</label> <input type="text" name="nome" th:value="${evento.nome}">
 		</div>
 		
 		<div>
-			<label>local:</label> <input type="text" name="local">
+			<label>local:</label> <input type="text" name="local"  th:value="${evento.local}">
 		</div>
 		
 		<div>
-			<label>data:</label> <input type="text" name="data">
+			<label>data:</label> <input type="text" name="data" th:value="${evento.data}">
 		</div>
 		
 		<div>
-			<label>horário:</label> <input type="text" name="horário">
+			<label>horário:</label> <input type="text" name="horário" th:value="${evento.horario}">
 		</div>
 
 		<div>
