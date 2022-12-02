@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<title>Eventos</title>
+</head>
+<body>
+	<div th: replace="~{menu :: menu}"></div>
+	<div class="container">
+
+
+		<h1>Detalhes do Evento</h1>
+
+		<div class="row">
+			<div class="col s12">
+				<div class="card blue-grey darken-1">
+					<div class="card-content white-text">
+						<span class="card-title"> Adicionar convidado</span>
+						<form action="" method="post">
+							<div>
+								<label> Nome:</label> <input type="text" name="nome">
+							</div>
+							<div>
+								<label> rg:</label> <input type="text" name="rg">
+							</div>
+							<div>
+								<button type="submit" class="btn">Salvar</button>
+								<button type="reset" class="btn">limpar</button>
+							</div>
+						</form>
+
+
+					</div>
+					<div</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<div class="row">
+		<div class="col s12">
+			<div class="card">
+				<div class="card-content"
+					<span class="card-title"> convidados</span>
+					<table class="highlight">
+						<thead>
+							<tr>id
+							</tr>
+							<tr>nome
+							</tr>
+							<tr>rg
+							</tr>
+
+
+						</thead>
+					</table>
+</body>
+</html>
